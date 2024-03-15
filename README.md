@@ -1508,14 +1508,13 @@ sankey-beta
     Electricity grid,H2 conversion,27.14
 ```
 
-```
+```text
 ---
 config:
   sankey:
     showValues: false
 ---
 sankey-beta
-
     Agricultural 'waste',Bio-conversion,124.729
     Bio-conversion,Liquid,0.597
     Bio-conversion,Losses,26.862
