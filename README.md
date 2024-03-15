@@ -538,6 +538,10 @@ graph LR
 	style 开头 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray:5 5
 ```
 
+---
+
+
+
 ### 2.序列图（sequenceDiagram）
 
 >  sequenceDiagram：描述对象之间交互顺序的图表
@@ -620,6 +624,10 @@ sequenceDiagram
 	end
 	Note left of a: 简单对话
 ```
+
+---
+
+
 
 ### 3.类图（classDiagram）
 
@@ -788,6 +796,10 @@ classDiagram
     Felidae --> Animal
 ```
 
+---
+
+
+
 ### 4.甘特图（Gantt diagram）
 
 > 用于项目进度表以及任何一个项目完成所需的时间
@@ -953,6 +965,8 @@ gantt
     Add another diagram to demo page    :48h
 ```
 
+---
+
 
 
 ### 5.饼图（Pie Chart）
@@ -982,6 +996,10 @@ pie
  	"Java" : 10.33
  	"others": 54.3
 ```
+
+---
+
+
 
 ### 6.象限图（quadrantChart）
 
@@ -1124,6 +1142,10 @@ quadrantChart
     quadrant-4 Delete
 ```
 
+---
+
+
+
 ### 7.思维导图（mindmap）
 
 > 用于将信息直观地组织成层次结构，显示整体各个部分之间的关系。
@@ -1233,6 +1255,10 @@ Unicode works too: 🤓`"]
       id2["`The dog in **the** hog... a *very long text* that wraps to a new line`"]
       id3[Regular labels still works]
 ```
+
+---
+
+
 
 ### 8.时间线图（Timeline Diagram）
 
@@ -1449,6 +1475,10 @@ timeline
           2010 : Pinterest
 ```
 
+---
+
+
+
 ### 9.桑基图（Sankey diagram）(v10.3.0+)
 
 > 用于描述从一组值到另一组值的流动
@@ -1476,6 +1506,84 @@ sankey-beta
     Electricity grid,Over generation / exports,104.453
     Electricity grid,Heating and cooling - homes,113.726
     Electricity grid,H2 conversion,27.14
+```
+
+```
+---
+config:
+  sankey:
+    showValues: false
+---
+sankey-beta
+
+    Agricultural 'waste',Bio-conversion,124.729
+    Bio-conversion,Liquid,0.597
+    Bio-conversion,Losses,26.862
+    Bio-conversion,Solid,280.322
+    Bio-conversion,Gas,81.144
+    Biofuel imports,Liquid,35
+    Biomass imports,Solid,35
+    Coal imports,Coal,11.606
+    Coal reserves,Coal,63.965
+    Coal,Solid,75.571
+    District heating,Industry,10.639
+    District heating,Heating and cooling - commercial,22.505
+    District heating,Heating and cooling - homes,46.184
+    Electricity grid,Over generation / exports,104.453
+    Electricity grid,Heating and cooling - homes,113.726
+    Electricity grid,H2 conversion,27.14
+    Electricity grid,Industry,342.165
+    Electricity grid,Road transport,37.797
+    Electricity grid,Agriculture,4.412
+    Electricity grid,Heating and cooling - commercial,40.858
+    Electricity grid,Losses,56.691
+    Electricity grid,Rail transport,7.863
+    Electricity grid,Lighting & appliances - commercial,90.008
+    Electricity grid,Lighting & appliances - homes,93.494
+    Gas imports,Ngas,40.719
+    Gas reserves,Ngas,82.233
+    Gas,Heating and cooling - commercial,0.129
+    Gas,Losses,1.401
+    Gas,Thermal generation,151.891
+    Gas,Agriculture,2.096
+    Gas,Industry,48.58
+    Geothermal,Electricity grid,7.013
+    H2 conversion,H2,20.897
+    H2 conversion,Losses,6.242
+    H2,Road transport,20.897
+    Hydro,Electricity grid,6.995
+    Liquid,Industry,121.066
+    Liquid,International shipping,128.69
+    Liquid,Road transport,135.835
+    Liquid,Domestic aviation,14.458
+    Liquid,International aviation,206.267
+    Liquid,Agriculture,3.64
+    Liquid,National navigation,33.218
+    Liquid,Rail transport,4.413
+    Marine algae,Bio-conversion,4.375
+    Ngas,Gas,122.952
+    Nuclear,Thermal generation,839.978
+    Oil imports,Oil,504.287
+    Oil reserves,Oil,107.703
+    Oil,Liquid,611.99
+    Other waste,Solid,56.587
+    Other waste,Bio-conversion,77.81
+    Pumped heat,Heating and cooling - homes,193.026
+    Pumped heat,Heating and cooling - commercial,70.672
+    Solar PV,Electricity grid,59.901
+    Solar Thermal,Heating and cooling - homes,19.263
+    Solar,Solar Thermal,19.263
+    Solar,Solar PV,59.901
+    Solid,Agriculture,0.882
+    Solid,Thermal generation,400.12
+    Solid,Industry,46.477
+    Thermal generation,Electricity grid,525.531
+    Thermal generation,Losses,787.129
+    Thermal generation,District heating,79.329
+    Tidal,Electricity grid,9.452
+    UK land based bioenergy,Bio-conversion,182.01
+    Wave,Electricity grid,19.013
+    Wind,Electricity grid,289.366
 ```
 
 
@@ -1582,6 +1690,8 @@ sankey-beta
   mermaid.initialize(config);//调用Mermaid的initialize方法，并传入上面定义的config对象作为参数。
 </script>
 ```
+
+---
 
 
 
@@ -1714,6 +1824,10 @@ xychart-beta vertical
     bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
     line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
 ```
+
+---
+
+
 
 > mermaid语法参考Mermaid中文网[Mermaid中文网]([教程 | Mermaid 中文网 (nodejs.cn)](https://mermaid.nodejs.cn/ecosystem/tutorials.html))
 
