@@ -17,10 +17,6 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css"> -->
     <!-- 加载mermaid语法 -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.min.js"></script>
-    <script>
-      var num = 0;
-      mermaid.initialize({ startOnLoad: false });
-    </script>
 </head>
 
 <body>
@@ -60,6 +56,9 @@
                 namespace: 'markdown-Guide',
             }
         }
+        var num = 0;
+        mermaid.initialize({ startOnLoad: false });
+
         window.$docsify = {
           markdown: {
             renderer: {
