@@ -11,6 +11,11 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <!-- 默认主题 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <!-- 加载mermaid语法 -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    <script>
+    	window.onload=mermaid.initialize({"theme": "forest"});
+    </script>
 </head>
 
 <body>
@@ -47,7 +52,7 @@
                 noData: '找不到结果',
                 depth: 4,
                 hideOtherSidebarContent: false,
-                namespace: 'Docsify-Guide',
+                namespace: 'markdown-Guide',
             }
         }
     </script>
